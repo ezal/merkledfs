@@ -1,0 +1,9 @@
+(executables
+  (names client server)
+  (libraries
+    merkle_tree
+    cmdliner
+    data-encoding
+    ipaddr
+    lwt
+    lwt.unix))
